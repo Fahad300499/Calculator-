@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Calculator</h1>
+
+    <div class="card">
+
+        <div class="calc-head">
+            <input type="text"  id="result" maxlength="15">
+        </div>
+
+        <div class="calc-body">
+            <div>
+                <input type="button" class="btn" value="C" onclick="appendToDisplay">
+                <input type="button" class="btn" value="+/-" onclick="appendToDisplay">
+                <input type="button" class="btn" value="%" onclick="appendToDisplay">
+                <input type="button" class="btn btn-style" value="/" onclick="appendToDisplay">
+            </div>
+
+            <div>
+                <input type="button" class="btn" value="7" onclick="appendToDisplay">
+                <input type="button" class="btn" value="8" onclick="appendToDisplay">
+                <input type="button" class="btn" value="9" onclick="appendToDisplay">
+                <input type="button" class="btn btn-style" value="*" onclick="appendToDisplay">
+            </div>
+
+            <div>
+                <input type="button" class="btn" value="4" onclick="appendToDisplay">
+                <input type="button" class="btn" value="5" onclick="appendToDisplay">
+                <input type="button" class="btn" value="6" onclick="appendToDisplay">
+                <input type="button" class="btn btn-style" value="-" onclick="appendToDisplay">
+            </div>
+
+            <div>
+                <input type="button" class="btn" value="1" onclick="appendToDisplay">
+                <input type="button" class="btn" value="2" onclick="appendToDisplay">
+                <input type="button" class="btn" value="3" onclick="appendToDisplay">
+                <input type="button" class="btn btn-style" value="+" onclick="appendToDisplay">
+            </div>
+
+            <div>
+                <input type="button" class="btn" value="0" onclick="appendToDisplay">
+                <input type="button" class="btn" value="." onclick="appendToDisplay">
+                <input type="button" class="btn" value="C" onclick="clearDisplay()">
+                <input type="button" class="btn btn-style-2" value="=" onclick="calculate()">
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
